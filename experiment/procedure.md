@@ -138,7 +138,7 @@ Rate constant =........ (litre / gmol)min<sup>-1</sup></br>
 <center><img  src= "images/prb1.png" style="width:648px;height:365px"></center></br>
 </br>Obtain the rate constant at three or more different temperatures.</br>
 <center>
-<table border="1">
+<table>
 
 <tr height="100">
 <td width="50">Temperature</br>T in &deg; k</td>
