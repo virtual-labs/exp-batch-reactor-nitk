@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A  second  order reaction is  taking place in a constant volume batch reactor of 5 lit volume at a temperature of 30°C [case( i)] . The rate constant was found to be 5lit/mol/min. Same reaction was carried out in a 2lit volume batch reactor at 30° C( case ii). The rate constant obtained with case (ii) is ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Higher that that in case(i)",
+        "b": "Equal to case (i)",
+        "c": "Lower than that in case (i)",
+        "d": "Cannot predict"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "In a batch reactor an; irreversible first order reaction A  R takes place. The reaction rate constant (k) = 0.2 sec-1, and the initial concentration of A (CAo) = 0.1 mol/m3. Find the conversion of the reaction after 2 seconds ?",
+      "answers": {
+        "a": "70%",
+        "b": "32.7%",
+        "c": "30%",
+        "d": "67.3%"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Liquid A decomposes in a batch reactor by a second order kinetics. If 50% of A is converted in a five minute run, how long would it take to reach 75% conversion",
+      "answers": {
+        "a": "7.5 min",
+        "b": "15min",
+        "c": "30min",
+        "d": "10min"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Rate constant  ‘k’, absolute temperature ‘T’ are related by  Arrhenius equation as",
+      "answers": {
+        "a": "k proportional sqrt(T)",
+        "b": "k proportional exp (-E/RT)",
+        "c": "k proportional T^1.5",
+        "d": "k proportional T"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "A second; order reaction is  taking place in a constant volume batch reactor of 5 lit volume at a temperature of 30°C [case( i)] . The rate constant was found to be 5lit/mol/min. Same reaction was carried out in a 2lit volume batch reactor at 30° C( case ii). The rate constant obtained with case (ii) is",
+      "answers": {
+        "a": "Higher that that in case(i)",
+        "b": "Equal to case (i)",
+        "c": "Lower than that in case (i)",
+        "d": "Cannot predict"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }
