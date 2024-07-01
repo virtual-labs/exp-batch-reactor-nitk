@@ -469,7 +469,6 @@ function rangeSlideNaOH(value) {
 function addNaOHToReactor() {
   document.getElementById("setupButton").disabled = true;
   calcVaVb();
-
   console.log(
     Math.round(Va),
     Math.round(Vb),
@@ -624,7 +623,7 @@ function pourNaOH() {
   }, 300);
 }
 
-let waveImages = ["images/191.svg", "images/192.svg"];
+let waveImages = ["./Images/191.svg", "./Images/192.svg"];
 const waveAnimation = function () {
   //console.log(waveIndex);
   if (waveIndex == 1) {
@@ -634,20 +633,20 @@ const waveAnimation = function () {
 };
 
 let tubeImagesA = [
-  "images/A.png",
-  "images/A100.png",
-  "images/A300.png",
-  "images/A600.png",
-  "images/A800.png",
-  "images/A1000.png",
+  "./Images/A.png",
+  "./Images/A100.png",
+  "./Images/A300.png",
+  "./Images/A600.png",
+  "./Images/A800.png",
+  "./Images/A1000.png",
 ];
 let tubeImagesB = [
-  "images/B.png",
-  "images/B100.png",
-  "images/B300.png",
-  "images/B600.png",
-  "images/B800.png",
-  "images/B1000.png",
+  "./Images/B.png",
+  "./Images/B100.png",
+  "./Images/B300.png",
+  "./Images/B600.png",
+  "./Images/B800.png",
+  "./Images/B1000.png",
 ];
 
 const displayTubeA = function (Va, tubeImages, imgId) {
@@ -937,8 +936,8 @@ function gotoSetup() {
       document.getElementById("obserButton").style.visibility = "visible";
       document.getElementById("volB").style.visibility = "visible";
       document.getElementById("msg1").style.visibility = "visible";
-      document.getElementById("tubeA").src = "images/A.png";
-      document.getElementById("tubeB").src = "images/B.png";
+      document.getElementById("tubeA").src = "./Images/A.png";
+      document.getElementById("tubeB").src = "./Images/B.png";
       document.getElementById("tubeA").style =
         "position: absolute; left: 520px; top:250px; z-index: 2;";
       document.getElementById("tubeB").style =
